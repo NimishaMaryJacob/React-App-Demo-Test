@@ -1,8 +1,14 @@
 import React from 'react';
+import StreetList from './StreetList';
 
 function App() {
-  const value = 'World';
-  return <div>Hello test {value}</div>;
+    return (
+        <div className="App">
+            <header className="App-header">
+                <StreetList />
+            </header>
+        </div>
+    );
 }
 
 export default App;
